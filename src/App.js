@@ -1,26 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { ConnectedNavigation } from './components/Navigation';
+import { ConnectedTeamList } from './components/TeamList';
+import CurrentMatch from './components/CurrentMatch';
+import { Router, Route } from 'react-router-dom';
+import { history } from './store/history';
+import { store } from './store';
+import { Provider } from 'react-redux';
+
 
 class App extends Component {
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Router history={history}>
+        <Provider store={store}>
+          <ConnectedNavigation />
+          <Route exact path='/Teams' component={ConnectedTeamList}/>
+          <Route exact path='/' component={CurrentMatch}/>
+        </Provider>
+      </Router>
     );
   }
 }
