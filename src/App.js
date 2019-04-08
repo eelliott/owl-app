@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { ConnectedNavigation } from './components/Navigation';
 import { ConnectedTeamList } from './components/TeamList';
-import CurrentMatch from './components/CurrentMatch';
+import { ConnectedCurrentMatch } from './components/CurrentMatch';
 import { Router, Route } from 'react-router-dom';
 import { history } from './store/history';
 import { store } from './store';
@@ -17,7 +17,7 @@ class App extends Component {
         <Provider store={store}>
           <ConnectedNavigation />
           <Route exact path='/Teams' component={ConnectedTeamList}/>
-          <Route exact path='/' component={CurrentMatch}/>
+          <Route exact path='/' component={ConnectedCurrentMatch}/>
         </Provider>
       </Router>
     );

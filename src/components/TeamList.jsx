@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 class TeamList extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            teams: []
-        }
-    }
-
     // componentDidMount() {
     //     fetch("https://api.overwatchleague.com/teams")
     //     .then(res => res.json())
@@ -28,10 +21,9 @@ class TeamList extends Component {
     render() {
         return (
             <div>
-            
-                {this.state.teams.map(team=>(
-                    <div key={team.name}>
-                        <h3>{team.name}</h3>
+                {this.props.teams.map(team=>(
+                    <div key={team.competitor.name}>
+                        <h3>{team.competitor.name}</h3>
                         <img 
                             src={team.competitor.logo} 
                             alt={team.competitor.name+`'s Logo`}
@@ -46,8 +38,9 @@ class TeamList extends Component {
 }
 
 const mapStateToProps = (state) => {
+    console.log(state.teams);
     return {
-        teams:state.teams
+        teams:state.teams.competitors
     }
 }
 
