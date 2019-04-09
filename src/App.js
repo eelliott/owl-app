@@ -1,24 +1,21 @@
 import React, { Component } from 'react';
 import './App.css';
-import { ConnectedNavigation } from './components/Navigation';
-import { ConnectedTeamList } from './components/TeamList';
-import { ConnectedCurrentMatch } from './components/CurrentMatch';
+import { Navigation } from './components/Navigation';
+import { TeamList } from './components/TeamList';
+import { TeamDetails } from './components/TeamDetails';
+import { CurrentMatch } from './components/CurrentMatch';
 import { Router, Route } from 'react-router-dom';
 import { history } from './store/history';
-import { store } from './store';
-import { Provider } from 'react-redux';
-
+import teams from "./server/data.default/teams";
 
 class App extends Component {
-
   render() {
     return (
       <Router history={history}>
-        <Provider store={store}>
-          <ConnectedNavigation />
-          <Route exact path='/Teams' component={ConnectedTeamList}/>
-          <Route exact path='/' component={ConnectedCurrentMatch}/>
-        </Provider>
+        <Navigation />
+        <Route exact path='/teams' component={()=><TeamList teams={teams.competitors}/>}/>
+        <Route exact path='/' component={CurrentMatch}/>
+        <Route exact path='/teams/:id' />
       </Router>
     );
   }
