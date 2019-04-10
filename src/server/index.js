@@ -1,9 +1,11 @@
-import express from 'express';
-import cors from 'cors';
-import bodyParser from "body-parser";
-import { connectDB } from './connect-db';
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const express = require('express');
+require('./initilize-db');
+let connectDB = require('./connect-db').connectDB;
 
 let port = 8888;
+
 let app = express();
 
 app.listen(port, console.log("Server listening on port", port));
@@ -14,3 +16,7 @@ app.use(
     bodyParser.json()
 );
 
+app.get('/', async (req, res) => {
+    let db = await connectDB();
+    res.json(db.collection('owl-divisions'));
+});

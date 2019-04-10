@@ -1,12 +1,16 @@
-import * as teams from './data.default/teams';
-import { connectDB } from './connect-db';
+var MongoClient = require('mongodb').MongoClient;
+const url = process.env.MONGODB_URI || 'mongodb://localhost:27017/owldata';
+let db = null;
 
-async function initializeDB() {
-    let db = await connectDB();
-    for (let collectionName in teams) {
-        let collection = db.collection(collectionName);
-        await collection.insertMany(teams[collectionName]);
-    }
+
+async function connectDB() {
+    if (db) return db;
+    let client = await MongoClient.connect(url, { useNewUrlParser: true });
+    db = client.db();
+    console.info("Got DB", db);
+    return db;
 }
 
-initializeDB();
+module.exports = {
+    connectDB: connectDB
+};

@@ -9,6 +9,7 @@
     "express": "^4.16.4",
     "history": "^4.9.0",
     "mongodb": "^3.2.3",
+    "npm": "^6.9.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router": "^5.0.0",
@@ -29,5 +30,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
 }
