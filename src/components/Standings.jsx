@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Ranks } from './Ranks';
+import { Link } from 'react-router-dom';
 
 export class Standings extends Component {
     constructor(props) {
@@ -9,7 +9,8 @@ export class Standings extends Component {
             viewer: 0,
             owl_divisions: {},
             season:{},
-            stages:[]
+            stages:[], 
+            ranks: []
         }
     }   
 
@@ -44,6 +45,28 @@ export class Standings extends Component {
 
     render() {
         let ranks = this.state.ranks;
+        let component = <div>undefined standings</div>;
+        switch (this.state.viewer) {
+            case 1:
+                
+                break;
+            case 2:
+                
+                break;
+            default:
+                component = ( 
+                    <div>
+                        {ranks.map((team)=>
+                            <Link key={team.competitor.id} to={`/teams/${team.competitor.id}`}>
+                                <h1>{team.competitor.name}</h1>
+                                <p>Score: {team.records[0].matchWin}/{team.records[0].matchDraw}/{team.records[0].matchLoss}</p>
+                                <img src={team.competitor.logo} alt="teamlogo"/>
+                            </Link>
+                        )}
+                    </div> 
+                );
+            
+        }
         return (
             <div>
                 <div>
@@ -51,9 +74,7 @@ export class Standings extends Component {
                     <button id="1" onClick={this.changeView.bind(this)}>Stages</button>
                     <button id="2" onClick={this.changeView.bind(this)}>Season</button>
                 </div>
-                {this.state.isLoading ? <p>loading...</p> : 
-                    <Ranks ranks={this.state.ranks} viewer={this.state.viewer}/>
-                }
+                { this.state.isLoading ? <p>loading...</p> : component }
             </div>
         );
     }

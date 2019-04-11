@@ -1,0 +1,296 @@
+{
+    "data": {
+        "player": {
+            "id": 8642,
+            "availableLanguages": [
+                "en",
+                "zh-cn"
+            ],
+            "name": "ZachaREEE",
+            "homeLocation": "Oviedo, Florida",
+            "accounts": [
+                {
+                    "id": 13161,
+                    "competitorId": 8642,
+                    "value": "https://www.instagram.com/zacklombardo_",
+                    "accountType": "INSTAGRAM",
+                    "isPublic": true
+                },
+                {
+                    "id": 12781,
+                    "competitorId": 8642,
+                    "value": "https://www.twitch.tv/zachareeee",
+                    "accountType": "TWITCH",
+                    "isPublic": true
+                },
+                {
+                    "id": 12771,
+                    "competitorId": 8642,
+                    "value": "https://twitter.com/zacklombardo",
+                    "accountType": "TWITTER",
+                    "isPublic": true
+                }
+            ],
+            "game": "OVERWATCH",
+            "attributes": {
+                "heroes": [
+                    "doomfist",
+                    "genji",
+                    "hanzo",
+                    "mccree",
+                    "sombra",
+                    "tracer",
+                    "widowmaker"
+                ],
+                "player_number": 22,
+                "preferred_slot": "4",
+                "role": "offense"
+            },
+            "attributesVersion": "1.0.2",
+            "familyName": "Lombardo ",
+            "givenName": "Zachary",
+            "nationality": "US",
+            "headshot": "https://bnetcmsus-a.akamaihd.net/cms/gallery/9HWW7CZV9TN21549664649495.png",
+            "teams": [
+                {
+                    "team": {
+                        "id": 4523,
+                        "availableLanguages": [
+                            "en",
+                            "ru",
+                            "ja",
+                            "zh-tw",
+                            "zh-cn",
+                            "th",
+                            "ko"
+                        ],
+                        "handle": "fuel.6990",
+                        "name": "Dallas Fuel",
+                        "homeLocation": "Dallas, TX",
+                        "primaryColor": "0c2340",
+                        "secondaryColor": "0072ce",
+                        "accounts": [
+                            {
+                                "id": 2268,
+                                "competitorId": 4523,
+                                "value": "https://twitter.com/DallasFuel",
+                                "accountType": "TWITTER",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 2424,
+                                "competitorId": 4523,
+                                "value": "https://discord.gg/dallasfuel",
+                                "accountType": "DISCORD",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 2372,
+                                "competitorId": 4523,
+                                "value": "https://www.instagram.com/DallasFuel",
+                                "accountType": "INSTAGRAM",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 2267,
+                                "competitorId": 4523,
+                                "value": "https://www.facebook.com/TheDallasFuel",
+                                "accountType": "FACEBOOK",
+                                "isPublic": true
+                            },
+                            {
+                                "id": 2269,
+                                "competitorId": 4523,
+                                "value": "https://www.youtube.com/channel/UCj4XSmDqIhRT4frKzRTMyrA",
+                                "accountType": "YOUTUBE_CHANNEL",
+                                "isPublic": true
+                            }
+                        ],
+                        "game": "OVERWATCH",
+                        "attributes": {
+                            "city": null,
+                            "hero_image": null,
+                            "manager": null,
+                            "team_guid": "0x0D70000000000002"
+                        },
+                        "attributesVersion": "1.0.0",
+                        "divisions": [
+                            {
+                                "competitor": {
+                                    "id": 4523
+                                },
+                                "division": {
+                                    "id": 61
+                                }
+                            },
+                            {
+                                "competitor": {
+                                    "id": 4523
+                                },
+                                "division": {
+                                    "id": 80
+                                }
+                            }
+                        ],
+                        "abbreviatedName": "DAL",
+                        "addressCountry": "US",
+                        "logo": "https://bnetcmsus-a.akamaihd.net/cms/page_media/NO44N7DDJAPF1508792362936.png",
+                        "icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
+                        "secondaryPhoto": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/YX6JZ6FR89LU1507822882865.svg",
+                        "type": "TEAM"
+                    },
+                    "player": {
+                        "id": 8642,
+                        "type": "PLAYER"
+                    },
+                    "flags": []
+                }
+            ],
+            "type": "PLAYER"
+        },
+        "stats": {
+            "all": {
+                "eliminations_avg_per_10m": 16.793621944100657,
+                "deaths_avg_per_10m": 5.383231574105886,
+                "hero_damage_avg_per_10m": 4972.004140353445,
+                "healing_avg_per_10m": 8953.866449262483,
+                "ultimates_earned_avg_per_10m": 4.893846885550806,
+                "final_blows_avg_per_10m": 3.6317495308561236,
+                "time_played_total": 23294.557975769043
+            },
+            "heroes": [
+                {
+                    "hero_id": "0x02E000000000013B",
+                    "name": "ana",
+                    "stats": {
+                        "eliminations_avg_per_10m": 5.455407717339751,
+                        "deaths_avg_per_10m": 6.3646423368963765,
+                        "hero_damage_avg_per_10m": 3082.836836831256,
+                        "healing_avg_per_10m": 11788.416023458234,
+                        "ultimates_earned_avg_per_10m": 5.455407717339751,
+                        "final_blows_avg_per_10m": 0,
+                        "time_played_total": 659.8956826925278
+                    }
+                },
+                {
+                    "hero_id": "0x02E0000000000005",
+                    "name": "hanzo",
+                    "stats": {
+                        "eliminations_avg_per_10m": 20.8979691025054,
+                        "deaths_avg_per_10m": 5.22449227562635,
+                        "hero_damage_avg_per_10m": 6683.809463575586,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 2.612246137813175,
+                        "final_blows_avg_per_10m": 7.836738413439526,
+                        "time_played_total": 229.6873909831047
+                    }
+                },
+                {
+                    "hero_id": "0x02E0000000000195",
+                    "name": "brigitte",
+                    "stats": {
+                        "eliminations_avg_per_10m": 17.667569025502065,
+                        "deaths_avg_per_10m": 5.372090093933148,
+                        "hero_damage_avg_per_10m": 5015.801609756631,
+                        "healing_avg_per_10m": 9611.071714824458,
+                        "ultimates_earned_avg_per_10m": 5.056084794290021,
+                        "final_blows_avg_per_10m": 3.590969314126436,
+                        "time_played_total": 20885.725674390793
+                    }
+                },
+                {
+                    "hero_id": "0x02E000000000000A",
+                    "name": "widowmaker",
+                    "stats": {
+                        "eliminations_avg_per_10m": 6.429883514454225,
+                        "deaths_avg_per_10m": 7.2336189537610025,
+                        "hero_damage_avg_per_10m": 3626.5715428252356,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 3.2149417572271126,
+                        "final_blows_avg_per_10m": 5.626148075147447,
+                        "time_played_total": 746.5143014192581
+                    }
+                },
+                {
+                    "hero_id": "0x02E0000000000065",
+                    "name": "junkrat",
+                    "stats": {
+                        "eliminations_avg_per_10m": 2.9788629807688407,
+                        "deaths_avg_per_10m": 5.957725961537681,
+                        "hero_damage_avg_per_10m": 7170.870467234396,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 2.9788629807688407,
+                        "time_played_total": 201.41913336515427
+                    }
+                },
+                {
+                    "hero_id": "0x02E000000000012E",
+                    "name": "sombra",
+                    "stats": {
+                        "eliminations_avg_per_10m": 13.896627001084173,
+                        "deaths_avg_per_10m": 2.526659454742577,
+                        "hero_damage_avg_per_10m": 6187.013246314038,
+                        "healing_avg_per_10m": 52.39641538465865,
+                        "ultimates_earned_avg_per_10m": 3.7899891821138656,
+                        "final_blows_avg_per_10m": 5.053318909485154,
+                        "time_played_total": 474.9353925585747
+                    }
+                },
+                {
+                    "hero_id": "0x02E000000000006E",
+                    "name": "soldier-76",
+                    "stats": {
+                        "eliminations_avg_per_10m": 19.883868734828923,
+                        "deaths_avg_per_10m": 0,
+                        "hero_damage_avg_per_10m": 9621.803693943923,
+                        "healing_avg_per_10m": 1264.0866367220851,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 0,
+                        "time_played_total": 30.175214290618896
+                    }
+                },
+                {
+                    "hero_id": "0x02E0000000000015",
+                    "name": "bastion",
+                    "stats": {
+                        "eliminations_avg_per_10m": 0,
+                        "deaths_avg_per_10m": 0,
+                        "hero_damage_avg_per_10m": 0,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 0,
+                        "time_played_total": 5.842728912830353
+                    }
+                },
+                {
+                    "hero_id": "0x02E0000000000003",
+                    "name": "tracer",
+                    "stats": {
+                        "eliminations_avg_per_10m": 0,
+                        "deaths_avg_per_10m": 0,
+                        "hero_damage_avg_per_10m": 1182.9959159885045,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 0,
+                        "time_played_total": 24.344969928264618
+                    }
+                },
+                {
+                    "hero_id": "0x02E00000000001CA",
+                    "name": "wreckingball",
+                    "stats": {
+                        "eliminations_avg_per_10m": 33.31714931712101,
+                        "deaths_avg_per_10m": 0,
+                        "hero_damage_avg_per_10m": 2310.965712703677,
+                        "healing_avg_per_10m": 0,
+                        "ultimates_earned_avg_per_10m": 0,
+                        "final_blows_avg_per_10m": 16.658574658560504,
+                        "time_played_total": 36.01748722791672
+                    }
+                }
+            ]
+        }
+    },
+    "meta": {}
+}
