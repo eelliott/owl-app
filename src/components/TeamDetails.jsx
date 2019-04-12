@@ -59,8 +59,8 @@ export class TeamDetails extends Component {
                             </a>
                         </div>
                         <h3>{this.state.name}</h3>
-                        <div>Placement: {this.state.placement}</div> 
-                        <div>{this.state.ranking.matchWin}/{this.state.ranking.matchDraw}/{this.state.ranking.matchLoss}</div>
+                        <div>Match Score: {this.state.ranking.matchWin}/{this.state.ranking.matchLoss}</div>
+                        <div>Map Score: {this.state.ranking.gameWin}/{this.state.ranking.gameTie}/{this.state.ranking.gameLoss}</div>
                         <img src={this.state.logo} alt="team logo"/>
                         <div>
                             {this.state.players.map(player => 
