@@ -6,7 +6,7 @@ export class Standings extends Component {
         super(props);
         this.state =  {
             isLoading: true,
-            viewer: '0',
+            viewer: true,
             stageNum: '0',
             owl_divisions: {},
             season:{},
@@ -16,7 +16,8 @@ export class Standings extends Component {
     }   
 
     componentDidMount() {
-        fetch('https://api.overwatchleague.com/standings').then(res => res.json())
+        fetch('https://api.overwatchleague.com/standings')
+        .then(res => res.json())
         .then(data => {
             let ranks = [];
             for (let team in data.ranks.content) {
@@ -38,7 +39,7 @@ export class Standings extends Component {
 
     changeView(e) {
         this.setState({
-            // ranks = 0, stages = 1, season = 2
+            // ranks = true, stages = false
             viewer:e.target.id
         });
     }
@@ -51,8 +52,7 @@ export class Standings extends Component {
 
     render() {
         let component = <div>undefined standings</div>;
-        switch (this.state.viewer) {
-            case "1":
+        if (this.state.viewer === '1') {
                 let stages = this.state.stages;
                 component = ( 
                     <div>
@@ -77,11 +77,7 @@ export class Standings extends Component {
                         )}
                     </div> 
                 );
-                break;
-            case "2":
-                
-                break;
-            default:
+        } else {
                 let ranks = this.state.ranks;
                 component = ( 
                     <div>
@@ -90,20 +86,18 @@ export class Standings extends Component {
                                 <Link to={`/teams/${team.competitor.id}`}>
                                     <h1>{team.competitor.name}</h1>
                                 </Link>
-                                <div>Match Score: {team.records[0].matchWin}-{team.records[0].matchLoss}</div>
-                                <div>Map Score: {team.records[0].gameWin}/{team.records[0].gameTie}/{team.records[0].gameLoss}</div>
+                                <div>Match Score (W-L): {team.records[0].matchWin}-{team.records[0].matchLoss}</div>
+                                <div>Map Score (W/L/T): {team.records[0].gameWin}/{team.records[0].gameLoss}/{team.records[0].gameTie}</div>
                             </div>
                         )}
                     </div> 
                 );
-            
         }
         return (
             <div>
                 <div>
                     <button id="0" onClick={this.changeView.bind(this)}>Ranks</button>
                     <button id="1" onClick={this.changeView.bind(this)}>Stages</button>
-                    <button id="2" onClick={this.changeView.bind(this)}>Season</button>
                 </div>
                 { this.state.isLoading ? <p>loading...</p> : component }
             </div>
