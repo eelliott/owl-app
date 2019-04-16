@@ -40,16 +40,18 @@ export class LiveMatch extends Component {
                 </div>
             );
         } else {
+            let team1 = this.state.live_match.competitors[0];
+            let team2 = this.state.live_match.competitors[1];
             component = (
                 <div>
-                    
-                    
+                    <Link to={`/teams/${team1.id}`}>{team1.name}</Link> vs. <Link to={`/team/${team2.id}`}>{team2.name}</Link>
+                    <Link to={`matches/${this.state.live_match.id}`}>Match Details</Link>
                 </div>
             );
         }
         return(
             <div>
-                <ReactPlayer url="https://twitch.tv/overwatchleague"/>
+                <ReactPlayer url="https://twitch.tv/overwatchleague" playing/>
                 {this.state.isLoading ? <p>loading...</p> : component }
             </div>
         );
