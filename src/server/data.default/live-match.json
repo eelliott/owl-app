@@ -1,1 +1,665 @@
-{"data":{"liveMatch":{"id":21257,"competitors":[{"id":7694,"availableLanguages":["en","ko","zh-cn"],"handle":"paris.5582","name":"Paris Eternal","homeLocation":"Paris","primaryColor":"303d56","secondaryColor":"8d042d","game":"OVERWATCH","abbreviatedName":"PAR","addressCountry":"FR","logo":"https://bnetcmsus-a.akamaihd.net/cms/page_media/qm/QM7JE0THABVT1542674071412.png","icon":"https://bnetcmsus-a.akamaihd.net/cms/page_media/w4/W4C99JABL26E1542674142979.svg","secondaryPhoto":"https://bnetcmsus-a.akamaihd.net/cms/page_media/w4/W4C99JABL26E1542674142979.svg","type":"TEAM"},{"id":4407,"availableLanguages":["en","ko","ru","pt","ja","zh-tw","zh-cn","fr","th"],"handle":"miami-orlando.6863","name":"Florida Mayhem","homeLocation":"Florida","primaryColor":"feda00","secondaryColor":"af272f","game":"OVERWATCH","abbreviatedName":"FLA","addressCountry":"US","logo":"https://bnetcmsus-a.akamaihd.net/cms/page_media/4GO273NATVWM1508792362854.png","icon":"https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg","secondaryPhoto":"https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg","type":"TEAM"}],"scores":[{"value":2},{"value":0}],"conclusionValue":4,"conclusionStrategy":"MINIMUM","home":null,"state":"IN_PROGRESS","status":"IN_PROGRESS","statusReason":"NORMAL","attributes":{"tag":"0x6E4978E4000000D0"},"attributesVersion":"0.1.0","games":[{"id":22568,"number":1,"points":[2,0],"attributes":{"build":56657,"instanceID":"06c00f0a26580002:07cb3ba19835018b","map":"oasis","mapGuid":"0x080000000000069E","mapScore":{"team1":2,"team2":0}},"attributesVersion":"0.5.0","state":"CONCLUDED","status":"CONCLUDED","statusReason":"NORMAL","stats":null,"handle":"matchgame-9106c569-8091-a742-8962-c902c91f4c50","match":{"id":21257}},{"id":22643,"number":2,"points":[4,3],"attributes":{"build":56657,"instanceID":"06c00f0a26580002:07cc16741fa20198","map":"hanamura","mapGuid":"0x0800000000000165","mapScore":{"team1":4,"team2":3}},"attributesVersion":"0.5.0","state":"CONCLUDED","status":"CONCLUDED","statusReason":"NORMAL","stats":null,"handle":"matchgame-9e95403c-d7f0-dd45-875b-ff7b30116e2a","match":{"id":21257}},{"id":22569,"number":3,"points":[1,0],"attributes":{"build":56657,"instanceID":"06c00f0a26580002:07cc72bb57630199","map":"blizzard-world","mapGuid":"0x080000000000075E","mapScore":{"team1":1,"team2":0}},"attributesVersion":"0.5.0","state":"IN_PROGRESS","status":"IN_PROGRESS","statusReason":"NORMAL","stats":null,"handle":"matchgame-db90e2c2-61a9-664a-8c4b-541684b420f1","match":{"id":21257}},{"id":22570,"number":4,"attributes":{"mapGuid":"0x0800000000000184"},"attributesVersion":"0.5.0","state":"PENDING","status":"PENDING","statusReason":"NORMAL","stats":null,"match":{"id":21257}}],"clientHints":[],"bracket":{"id":4681,"matchConclusionValue":4,"matchConclusionStrategy":"MINIMUM","winners":8,"teamSize":6,"repeatableMatchUps":0,"stage":{"id":6373,"availableLanguages":["en"],"tournament":{"id":5080,"availableLanguages":["en"],"game":"OVERWATCH","featured":false,"draft":false,"handle":"tournament-afac0cc4-01f9-1844-bbce-1dfc25b426af","title":"Overwatch League Stage 2","series":{"id":181}}},"type":"OPEN_MATCH","clientHints":[],"advantageComparing":"AFTER_MATCH","thirdPlaceMatch":false,"allowDraw":false},"dateCreated":1544630155016,"flags":[],"handle":"match-7a861658-b7ae-f545-bdac-850205a96019","hyperlinks":[{"id":7670,"contentLanguage":"en","type":"TWITCH_ACCOUNT","value":"https://www.twitch.tv/overwatchleague","arguments":{"account":"overwatchleague"}},{"id":7751,"contentLanguage":"en","type":"ESPN_APP","value":"http://www.espn.com/watch/_/id/3494529/paris-eternal-vs-florida-mayhem","arguments":"http://www.espn.com/watch/_/id/3494529/paris-eternal-vs-florida-mayhem"},{"id":7603,"contentLanguage":"ru","type":"TWITCH_ACCOUNT","value":"https://www.twitch.tv/overwatchleague_ru","arguments":{"account":"overwatchleague_ru"}},{"id":7602,"contentLanguage":"fr","type":"TWITCH_ACCOUNT","value":"https://www.twitch.tv/overwatchleague_fr","arguments":{"account":"overwatchleague_fr"}},{"id":7726,"contentLanguage":"en","type":"MLG_OTHER","value":"https://eve.majorleaguegaming.com/overwatchleague","arguments":"https://eve.majorleaguegaming.com/overwatchleague"},{"id":7719,"contentLanguage":"pt","type":"TWITCH_ACCOUNT","value":"https://www.twitch.tv/overwatchleague_br","arguments":{"account":"overwatchleague_br"}},{"id":7735,"contentLanguage":"ko","type":"TWITCH_ACCOUNT","value":"https://www.twitch.tv/overwatchleague_kr","arguments":{"account":"overwatchleague_kr"}},{"id":9419,"contentLanguage":"zh-cn","type":"HUYA_ACCOUNT","value":"https://www.huya.com/660128","arguments":{"account":"660128"}},{"id":9337,"contentLanguage":"zh-cn","type":"BILIBILI_ACCOUNT","value":"https://live.bilibili.com/76","arguments":{"account":"76"}},{"id":9290,"contentLanguage":"zh-cn","type":"NETEASE_ACCOUNT","value":"https://cc.163.com/zt/owl"},{"id":9471,"contentLanguage":"zh-cn","type":"ZHANQI_ACCOUNT","value":"https://www.zhanqi.tv/topic/owl","arguments":{"account":"owl","accountPath":"topic"}},{"id":10682,"contentLanguage":"en","type":"DISNEY_XD_VIDEO","value":".","arguments":"."}],"competitorStatuses":["NORMAL","NORMAL"],"timeZone":"America/Los_Angeles","actualStartDate":1555023970440,"startDate":"2019-04-11T23:00:00.000Z","endDate":"2019-04-12T00:45:00.000Z","showStartTime":true,"showEndTime":true,"startDateTS":1555023600000,"endDateTS":1555029900000,"youtubeId":"","wins":[3,0],"ties":[0,0],"losses":[0,3],"videos":[{"name":1,"description":"","vodLink":"","youtubeId":"","thumbnailUrl":""},{"name":2,"description":"","vodLink":"","youtubeId":"","thumbnailUrl":""},{"name":3,"description":"","vodLink":"","youtubeId":"","thumbnailUrl":""}],"timeToMatch":3292876,"liveStatus":"LIVE"},"nextMatch":{"id":21230,"competitors":[{"id":4403,"availableLanguages":["en","ru","ja","zh-cn","th","ko","es-es","es-mx","pt","zh-tw"],"handle":"new-york-city.1614","name":"New York Excelsior","homeLocation":"New York City, NY","primaryColor":"171c38","secondaryColor":"0f57ea","game":"OVERWATCH","abbreviatedName":"NYE","addressCountry":"US","logo":"https://bnetcmsus-a.akamaihd.net/cms/page_media/9r/9RYLM8FICLJ01508818792450.png","icon":"https://bnetcmsus-a.akamaihd.net/cms/page_media/3PBR8VEYM8SH1517250447953.svg","secondaryPhoto":"https://bnetcmsus-a.akamaihd.net/cms/page_media/3PBR8VEYM8SH1517250447953.svg","type":"TEAM"},{"id":7697,"availableLanguages":["en","ko","zh-cn"],"handle":"washington.8916","name":"Washington Justice","homeLocation":"Washington, DC","primaryColor":"990034","secondaryColor":"003768","game":"OVERWATCH","abbreviatedName":"WAS","addressCountry":"US","logo":"https://bnetcmsus-a.akamaihd.net/cms/page_media/95UE5OJKSFQF1543968718489.png","icon":"https://bnetcmsus-a.akamaihd.net/cms/page_media/VH7IGPLX4UJ61543968702521.svg","secondaryPhoto":"https://bnetcmsus-a.akamaihd.net/cms/page_media/VH7IGPLX4UJ61543968702521.svg","type":"TEAM"}],"scores":[{"value":0},{"value":0}],"conclusionValue":4,"conclusionStrategy":"MINIMUM","home":null,"state":"PENDING","status":"PENDING","statusReason":"NORMAL","attributes":{"tag":"0x6E4978E4000000D0"},"attributesVersion":"0.1.0","games":[{"id":22700,"number":1,"attributes":{"mapGuid":"0x0800000000000662"},"attributesVersion":"0.5.0","state":"PENDING","status":"PENDING","statusReason":"NORMAL","stats":null,"match":{"id":21230}},{"id":22711,"number":2,"attributes":{"mapGuid":"0x0800000000000165"},"attributesVersion":"0.5.0","state":"PENDING","status":"PENDING","statusReason":"NORMAL","stats":null,"match":{"id":21230}},{"id":22712,"number":3,"attributes":{"mapGuid":"0x080000000000068D"},"attributesVersion":"0.5.0","state":"PENDING","status":"PENDING","statusReason":"NORMAL","stats":null,"match":{"id":21230}},{"id":22713,"number":4,"attributes":{"mapGuid":"0x0800000000000756"},"attributesVersion":"0.5.0","state":"PENDING","status":"PENDING","statusReason":"NORMAL","stats":null,"match":{"id":21230}}],"clientHints":[],"bracket":{"id":4681,"matchConclusionValue":4,"matchConclusionStrategy":"MINIMUM","winners":8,"teamSize":6,"repeatableMatchUps":0,"stage":{"id":6373,"availableLanguages":["en"],"tournament":{"id":5080,"availableLanguages":["en"],"game":"OVERWATCH","featured":false,"draft":false,"handle":"tournament-afac0cc4-01f9-1844-bbce-1dfc25b426af","title":"Overwatch League Stage 2","series":{"id":181}}},"type":"OPEN_MATCH","clientHints":[],"advantageComparing":"AFTER_MATCH","thirdPlaceMatch":false,"allowDraw":false},"dateCreated":1544630155456,"flags":[],"handle":"match-b11eb5f1-58b7-334b-bf49-566a9be75497","hyperlinks":[{"id":7605,"contentLanguage":"en","type":"TWITCH_ACCOUNT","value":"https://www.twitch.tv/overwatchleague","arguments":{"account":"overwatchleague"}},{"id":7606,"contentLanguage":"fr","type":"TWITCH_ACCOUNT","value":"https://www.twitch.tv/overwatchleague_fr","arguments":{"account":"overwatchleague_fr"}},{"id":7607,"contentLanguage":"en","type":"ESPN_APP","value":"http://www.espn.com/watch/_/id/3494525/new-york-excelsior-vs-washington-justice","arguments":"http://www.espn.com/watch/_/id/3494525/new-york-excelsior-vs-washington-justice"},{"id":7608,"contentLanguage":"ru","type":"TWITCH_ACCOUNT","value":"https://www.twitch.tv/overwatchleague_ru","arguments":{"account":"overwatchleague_ru"}},{"id":7699,"contentLanguage":"en","type":"MLG_OTHER","value":"https://eve.majorleaguegaming.com/overwatchleague","arguments":"https://eve.majorleaguegaming.com/overwatchleague"},{"id":7728,"contentLanguage":"ko","type":"TWITCH_ACCOUNT","value":"https://www.twitch.tv/overwatchleague_kr","arguments":{"account":"overwatchleague_kr"}},{"id":7737,"contentLanguage":"pt","type":"TWITCH_ACCOUNT","value":"https://www.twitch.tv/overwatchleague_br","arguments":{"account":"overwatchleague_br"}},{"id":9396,"contentLanguage":"zh-cn","type":"NETEASE_ACCOUNT","value":"https://cc.163.com/zt/owl"},{"id":9397,"contentLanguage":"zh-cn","type":"ZHANQI_ACCOUNT","value":"https://www.zhanqi.tv/topic/owl","arguments":{"account":"owl","accountPath":"topic"}},{"id":9338,"contentLanguage":"zh-cn","type":"HUYA_ACCOUNT","value":"https://www.huya.com/660128","arguments":{"account":"660128"}},{"id":9472,"contentLanguage":"zh-cn","type":"BILIBILI_ACCOUNT","value":"https://live.bilibili.com/76","arguments":{"account":"76"}}],"competitorStatuses":["NORMAL","NORMAL"],"timeZone":"America/Los_Angeles","startDate":"2019-04-12T00:45:00.000Z","endDate":"2019-04-12T02:30:00.000Z","showStartTime":true,"showEndTime":true,"startDateTS":1555029900000,"endDateTS":1555036200000,"youtubeId":"","wins":[0,0],"ties":[0,0],"losses":[0,0],"videos":[],"timeToMatch":3007124,"liveStatus":"UPCOMING"}},"meta":{"strings":{"owl.live-match.upcoming":"Live Soon","owl.live-match.now":"Live Now","owl.live-stream.game":"Map ##","owl.live-stream.game-of":"Map ## of ##","owl.live-stream.results":"Results","owl.live-stream.view-more":"View More","owl.live-stream.view-less":"View Less","owl.live-stream.phoenix-disclaimer":"For higher video quality, watch on <a rel=\"external\" href=\"https://www.overwatchleague.com\">overwatchleague.com</a>","owl.rewards.info.description":"<a href=\"{0}\">Log in now</a> to earn rewards for tuning in. <a href=\"{1}\">Geographic restrictions apply</a>.","owl.rewards.info.description.logged-in":"You are logged in to earn <a href=\"{0}\">viewership rewards</a>. Geographic restrictions apply."}}}
+{
+    "data": {
+        "liveMatch": {
+            "id": 21257,
+            "competitors": [
+                {
+                    "id": 7694,
+                    "availableLanguages": [
+                        "en",
+                        "ko",
+                        "zh-cn"
+                    ],
+                    "handle": "paris.5582",
+                    "name": "Paris Eternal",
+                    "homeLocation": "Paris",
+                    "primaryColor": "303d56",
+                    "secondaryColor": "8d042d",
+                    "game": "OVERWATCH",
+                    "abbreviatedName": "PAR",
+                    "addressCountry": "FR",
+                    "logo": "https://bnetcmsus-a.akamaihd.net/cms/page_media/qm/QM7JE0THABVT1542674071412.png",
+                    "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/w4/W4C99JABL26E1542674142979.svg",
+                    "secondaryPhoto": "https://bnetcmsus-a.akamaihd.net/cms/page_media/w4/W4C99JABL26E1542674142979.svg",
+                    "type": "TEAM"
+                },
+                {
+                    "id": 4407,
+                    "availableLanguages": [
+                        "en",
+                        "ko",
+                        "ru",
+                        "pt",
+                        "ja",
+                        "zh-tw",
+                        "zh-cn",
+                        "fr",
+                        "th"
+                    ],
+                    "handle": "miami-orlando.6863",
+                    "name": "Florida Mayhem",
+                    "homeLocation": "Florida",
+                    "primaryColor": "feda00",
+                    "secondaryColor": "af272f",
+                    "game": "OVERWATCH",
+                    "abbreviatedName": "FLA",
+                    "addressCountry": "US",
+                    "logo": "https://bnetcmsus-a.akamaihd.net/cms/page_media/4GO273NATVWM1508792362854.png",
+                    "icon": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
+                    "secondaryPhoto": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/M1KNTZW8SGHZ1507822883041.svg",
+                    "type": "TEAM"
+                }
+            ],
+            "scores": [
+                {
+                    "value": 2
+                },
+                {
+                    "value": 0
+                }
+            ],
+            "conclusionValue": 4,
+            "conclusionStrategy": "MINIMUM",
+            "home": null,
+            "state": "IN_PROGRESS",
+            "status": "IN_PROGRESS",
+            "statusReason": "NORMAL",
+            "attributes": {
+                "tag": "0x6E4978E4000000D0"
+            },
+            "attributesVersion": "0.1.0",
+            "games": [
+                {
+                    "id": 22568,
+                    "number": 1,
+                    "points": [
+                        2,
+                        0
+                    ],
+                    "attributes": {
+                        "build": 56657,
+                        "instanceID": "06c00f0a26580002:07cb3ba19835018b",
+                        "map": "oasis",
+                        "mapGuid": "0x080000000000069E",
+                        "mapScore": {
+                            "team1": 2,
+                            "team2": 0
+                        }
+                    },
+                    "attributesVersion": "0.5.0",
+                    "state": "CONCLUDED",
+                    "status": "CONCLUDED",
+                    "statusReason": "NORMAL",
+                    "stats": null,
+                    "handle": "matchgame-9106c569-8091-a742-8962-c902c91f4c50",
+                    "match": {
+                        "id": 21257
+                    }
+                },
+                {
+                    "id": 22643,
+                    "number": 2,
+                    "points": [
+                        4,
+                        3
+                    ],
+                    "attributes": {
+                        "build": 56657,
+                        "instanceID": "06c00f0a26580002:07cc16741fa20198",
+                        "map": "hanamura",
+                        "mapGuid": "0x0800000000000165",
+                        "mapScore": {
+                            "team1": 4,
+                            "team2": 3
+                        }
+                    },
+                    "attributesVersion": "0.5.0",
+                    "state": "CONCLUDED",
+                    "status": "CONCLUDED",
+                    "statusReason": "NORMAL",
+                    "stats": null,
+                    "handle": "matchgame-9e95403c-d7f0-dd45-875b-ff7b30116e2a",
+                    "match": {
+                        "id": 21257
+                    }
+                },
+                {
+                    "id": 22569,
+                    "number": 3,
+                    "points": [
+                        1,
+                        0
+                    ],
+                    "attributes": {
+                        "build": 56657,
+                        "instanceID": "06c00f0a26580002:07cc72bb57630199",
+                        "map": "blizzard-world",
+                        "mapGuid": "0x080000000000075E",
+                        "mapScore": {
+                            "team1": 1,
+                            "team2": 0
+                        }
+                    },
+                    "attributesVersion": "0.5.0",
+                    "state": "IN_PROGRESS",
+                    "status": "IN_PROGRESS",
+                    "statusReason": "NORMAL",
+                    "stats": null,
+                    "handle": "matchgame-db90e2c2-61a9-664a-8c4b-541684b420f1",
+                    "match": {
+                        "id": 21257
+                    }
+                },
+                {
+                    "id": 22570,
+                    "number": 4,
+                    "attributes": {
+                        "mapGuid": "0x0800000000000184"
+                    },
+                    "attributesVersion": "0.5.0",
+                    "state": "PENDING",
+                    "status": "PENDING",
+                    "statusReason": "NORMAL",
+                    "stats": null,
+                    "match": {
+                        "id": 21257
+                    }
+                }
+            ],
+            "clientHints": [],
+            "bracket": {
+                "id": 4681,
+                "matchConclusionValue": 4,
+                "matchConclusionStrategy": "MINIMUM",
+                "winners": 8,
+                "teamSize": 6,
+                "repeatableMatchUps": 0,
+                "stage": {
+                    "id": 6373,
+                    "availableLanguages": [
+                        "en"
+                    ],
+                    "tournament": {
+                        "id": 5080,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "game": "OVERWATCH",
+                        "featured": false,
+                        "draft": false,
+                        "handle": "tournament-afac0cc4-01f9-1844-bbce-1dfc25b426af",
+                        "title": "Overwatch League Stage 2",
+                        "series": {
+                            "id": 181
+                        }
+                    }
+                },
+                "type": "OPEN_MATCH",
+                "clientHints": [],
+                "advantageComparing": "AFTER_MATCH",
+                "thirdPlaceMatch": false,
+                "allowDraw": false
+            },
+            "dateCreated": 1544630155016,
+            "flags": [],
+            "handle": "match-7a861658-b7ae-f545-bdac-850205a96019",
+            "hyperlinks": [
+                {
+                    "id": 7670,
+                    "contentLanguage": "en",
+                    "type": "TWITCH_ACCOUNT",
+                    "value": "https://www.twitch.tv/overwatchleague",
+                    "arguments": {
+                        "account": "overwatchleague"
+                    }
+                },
+                {
+                    "id": 7751,
+                    "contentLanguage": "en",
+                    "type": "ESPN_APP",
+                    "value": "http://www.espn.com/watch/_/id/3494529/paris-eternal-vs-florida-mayhem",
+                    "arguments": "http://www.espn.com/watch/_/id/3494529/paris-eternal-vs-florida-mayhem"
+                },
+                {
+                    "id": 7603,
+                    "contentLanguage": "ru",
+                    "type": "TWITCH_ACCOUNT",
+                    "value": "https://www.twitch.tv/overwatchleague_ru",
+                    "arguments": {
+                        "account": "overwatchleague_ru"
+                    }
+                },
+                {
+                    "id": 7602,
+                    "contentLanguage": "fr",
+                    "type": "TWITCH_ACCOUNT",
+                    "value": "https://www.twitch.tv/overwatchleague_fr",
+                    "arguments": {
+                        "account": "overwatchleague_fr"
+                    }
+                },
+                {
+                    "id": 7726,
+                    "contentLanguage": "en",
+                    "type": "MLG_OTHER",
+                    "value": "https://eve.majorleaguegaming.com/overwatchleague",
+                    "arguments": "https://eve.majorleaguegaming.com/overwatchleague"
+                },
+                {
+                    "id": 7719,
+                    "contentLanguage": "pt",
+                    "type": "TWITCH_ACCOUNT",
+                    "value": "https://www.twitch.tv/overwatchleague_br",
+                    "arguments": {
+                        "account": "overwatchleague_br"
+                    }
+                },
+                {
+                    "id": 7735,
+                    "contentLanguage": "ko",
+                    "type": "TWITCH_ACCOUNT",
+                    "value": "https://www.twitch.tv/overwatchleague_kr",
+                    "arguments": {
+                        "account": "overwatchleague_kr"
+                    }
+                },
+                {
+                    "id": 9419,
+                    "contentLanguage": "zh-cn",
+                    "type": "HUYA_ACCOUNT",
+                    "value": "https://www.huya.com/660128",
+                    "arguments": {
+                        "account": "660128"
+                    }
+                },
+                {
+                    "id": 9337,
+                    "contentLanguage": "zh-cn",
+                    "type": "BILIBILI_ACCOUNT",
+                    "value": "https://live.bilibili.com/76",
+                    "arguments": {
+                        "account": "76"
+                    }
+                },
+                {
+                    "id": 9290,
+                    "contentLanguage": "zh-cn",
+                    "type": "NETEASE_ACCOUNT",
+                    "value": "https://cc.163.com/zt/owl"
+                },
+                {
+                    "id": 9471,
+                    "contentLanguage": "zh-cn",
+                    "type": "ZHANQI_ACCOUNT",
+                    "value": "https://www.zhanqi.tv/topic/owl",
+                    "arguments": {
+                        "account": "owl",
+                        "accountPath": "topic"
+                    }
+                },
+                {
+                    "id": 10682,
+                    "contentLanguage": "en",
+                    "type": "DISNEY_XD_VIDEO",
+                    "value": ".",
+                    "arguments": "."
+                }
+            ],
+            "competitorStatuses": [
+                "NORMAL",
+                "NORMAL"
+            ],
+            "timeZone": "America/Los_Angeles",
+            "actualStartDate": 1555023970440,
+            "startDate": "2019-04-11T23:00:00.000Z",
+            "endDate": "2019-04-12T00:45:00.000Z",
+            "showStartTime": true,
+            "showEndTime": true,
+            "startDateTS": 1555023600000,
+            "endDateTS": 1555029900000,
+            "youtubeId": "",
+            "wins": [
+                3,
+                0
+            ],
+            "ties": [
+                0,
+                0
+            ],
+            "losses": [
+                0,
+                3
+            ],
+            "videos": [
+                {
+                    "name": 1,
+                    "description": "",
+                    "vodLink": "",
+                    "youtubeId": "",
+                    "thumbnailUrl": ""
+                },
+                {
+                    "name": 2,
+                    "description": "",
+                    "vodLink": "",
+                    "youtubeId": "",
+                    "thumbnailUrl": ""
+                },
+                {
+                    "name": 3,
+                    "description": "",
+                    "vodLink": "",
+                    "youtubeId": "",
+                    "thumbnailUrl": ""
+                }
+            ],
+            "timeToMatch": 3292876,
+            "liveStatus": "LIVE"
+        },
+        "nextMatch": {
+            "id": 21230,
+            "competitors": [
+                {
+                    "id": 4403,
+                    "availableLanguages": [
+                        "en",
+                        "ru",
+                        "ja",
+                        "zh-cn",
+                        "th",
+                        "ko",
+                        "es-es",
+                        "es-mx",
+                        "pt",
+                        "zh-tw"
+                    ],
+                    "handle": "new-york-city.1614",
+                    "name": "New York Excelsior",
+                    "homeLocation": "New York City, NY",
+                    "primaryColor": "171c38",
+                    "secondaryColor": "0f57ea",
+                    "game": "OVERWATCH",
+                    "abbreviatedName": "NYE",
+                    "addressCountry": "US",
+                    "logo": "https://bnetcmsus-a.akamaihd.net/cms/page_media/9r/9RYLM8FICLJ01508818792450.png",
+                    "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/3PBR8VEYM8SH1517250447953.svg",
+                    "secondaryPhoto": "https://bnetcmsus-a.akamaihd.net/cms/page_media/3PBR8VEYM8SH1517250447953.svg",
+                    "type": "TEAM"
+                },
+                {
+                    "id": 7697,
+                    "availableLanguages": [
+                        "en",
+                        "ko",
+                        "zh-cn"
+                    ],
+                    "handle": "washington.8916",
+                    "name": "Washington Justice",
+                    "homeLocation": "Washington, DC",
+                    "primaryColor": "990034",
+                    "secondaryColor": "003768",
+                    "game": "OVERWATCH",
+                    "abbreviatedName": "WAS",
+                    "addressCountry": "US",
+                    "logo": "https://bnetcmsus-a.akamaihd.net/cms/page_media/95UE5OJKSFQF1543968718489.png",
+                    "icon": "https://bnetcmsus-a.akamaihd.net/cms/page_media/VH7IGPLX4UJ61543968702521.svg",
+                    "secondaryPhoto": "https://bnetcmsus-a.akamaihd.net/cms/page_media/VH7IGPLX4UJ61543968702521.svg",
+                    "type": "TEAM"
+                }
+            ],
+            "scores": [
+                {
+                    "value": 0
+                },
+                {
+                    "value": 0
+                }
+            ],
+            "conclusionValue": 4,
+            "conclusionStrategy": "MINIMUM",
+            "home": null,
+            "state": "PENDING",
+            "status": "PENDING",
+            "statusReason": "NORMAL",
+            "attributes": {
+                "tag": "0x6E4978E4000000D0"
+            },
+            "attributesVersion": "0.1.0",
+            "games": [
+                {
+                    "id": 22700,
+                    "number": 1,
+                    "attributes": {
+                        "mapGuid": "0x0800000000000662"
+                    },
+                    "attributesVersion": "0.5.0",
+                    "state": "PENDING",
+                    "status": "PENDING",
+                    "statusReason": "NORMAL",
+                    "stats": null,
+                    "match": {
+                        "id": 21230
+                    }
+                },
+                {
+                    "id": 22711,
+                    "number": 2,
+                    "attributes": {
+                        "mapGuid": "0x0800000000000165"
+                    },
+                    "attributesVersion": "0.5.0",
+                    "state": "PENDING",
+                    "status": "PENDING",
+                    "statusReason": "NORMAL",
+                    "stats": null,
+                    "match": {
+                        "id": 21230
+                    }
+                },
+                {
+                    "id": 22712,
+                    "number": 3,
+                    "attributes": {
+                        "mapGuid": "0x080000000000068D"
+                    },
+                    "attributesVersion": "0.5.0",
+                    "state": "PENDING",
+                    "status": "PENDING",
+                    "statusReason": "NORMAL",
+                    "stats": null,
+                    "match": {
+                        "id": 21230
+                    }
+                },
+                {
+                    "id": 22713,
+                    "number": 4,
+                    "attributes": {
+                        "mapGuid": "0x0800000000000756"
+                    },
+                    "attributesVersion": "0.5.0",
+                    "state": "PENDING",
+                    "status": "PENDING",
+                    "statusReason": "NORMAL",
+                    "stats": null,
+                    "match": {
+                        "id": 21230
+                    }
+                }
+            ],
+            "clientHints": [],
+            "bracket": {
+                "id": 4681,
+                "matchConclusionValue": 4,
+                "matchConclusionStrategy": "MINIMUM",
+                "winners": 8,
+                "teamSize": 6,
+                "repeatableMatchUps": 0,
+                "stage": {
+                    "id": 6373,
+                    "availableLanguages": [
+                        "en"
+                    ],
+                    "tournament": {
+                        "id": 5080,
+                        "availableLanguages": [
+                            "en"
+                        ],
+                        "game": "OVERWATCH",
+                        "featured": false,
+                        "draft": false,
+                        "handle": "tournament-afac0cc4-01f9-1844-bbce-1dfc25b426af",
+                        "title": "Overwatch League Stage 2",
+                        "series": {
+                            "id": 181
+                        }
+                    }
+                },
+                "type": "OPEN_MATCH",
+                "clientHints": [],
+                "advantageComparing": "AFTER_MATCH",
+                "thirdPlaceMatch": false,
+                "allowDraw": false
+            },
+            "dateCreated": 1544630155456,
+            "flags": [],
+            "handle": "match-b11eb5f1-58b7-334b-bf49-566a9be75497",
+            "hyperlinks": [
+                {
+                    "id": 7605,
+                    "contentLanguage": "en",
+                    "type": "TWITCH_ACCOUNT",
+                    "value": "https://www.twitch.tv/overwatchleague",
+                    "arguments": {
+                        "account": "overwatchleague"
+                    }
+                },
+                {
+                    "id": 7606,
+                    "contentLanguage": "fr",
+                    "type": "TWITCH_ACCOUNT",
+                    "value": "https://www.twitch.tv/overwatchleague_fr",
+                    "arguments": {
+                        "account": "overwatchleague_fr"
+                    }
+                },
+                {
+                    "id": 7607,
+                    "contentLanguage": "en",
+                    "type": "ESPN_APP",
+                    "value": "http://www.espn.com/watch/_/id/3494525/new-york-excelsior-vs-washington-justice",
+                    "arguments": "http://www.espn.com/watch/_/id/3494525/new-york-excelsior-vs-washington-justice"
+                },
+                {
+                    "id": 7608,
+                    "contentLanguage": "ru",
+                    "type": "TWITCH_ACCOUNT",
+                    "value": "https://www.twitch.tv/overwatchleague_ru",
+                    "arguments": {
+                        "account": "overwatchleague_ru"
+                    }
+                },
+                {
+                    "id": 7699,
+                    "contentLanguage": "en",
+                    "type": "MLG_OTHER",
+                    "value": "https://eve.majorleaguegaming.com/overwatchleague",
+                    "arguments": "https://eve.majorleaguegaming.com/overwatchleague"
+                },
+                {
+                    "id": 7728,
+                    "contentLanguage": "ko",
+                    "type": "TWITCH_ACCOUNT",
+                    "value": "https://www.twitch.tv/overwatchleague_kr",
+                    "arguments": {
+                        "account": "overwatchleague_kr"
+                    }
+                },
+                {
+                    "id": 7737,
+                    "contentLanguage": "pt",
+                    "type": "TWITCH_ACCOUNT",
+                    "value": "https://www.twitch.tv/overwatchleague_br",
+                    "arguments": {
+                        "account": "overwatchleague_br"
+                    }
+                },
+                {
+                    "id": 9396,
+                    "contentLanguage": "zh-cn",
+                    "type": "NETEASE_ACCOUNT",
+                    "value": "https://cc.163.com/zt/owl"
+                },
+                {
+                    "id": 9397,
+                    "contentLanguage": "zh-cn",
+                    "type": "ZHANQI_ACCOUNT",
+                    "value": "https://www.zhanqi.tv/topic/owl",
+                    "arguments": {
+                        "account": "owl",
+                        "accountPath": "topic"
+                    }
+                },
+                {
+                    "id": 9338,
+                    "contentLanguage": "zh-cn",
+                    "type": "HUYA_ACCOUNT",
+                    "value": "https://www.huya.com/660128",
+                    "arguments": {
+                        "account": "660128"
+                    }
+                },
+                {
+                    "id": 9472,
+                    "contentLanguage": "zh-cn",
+                    "type": "BILIBILI_ACCOUNT",
+                    "value": "https://live.bilibili.com/76",
+                    "arguments": {
+                        "account": "76"
+                    }
+                }
+            ],
+            "competitorStatuses": [
+                "NORMAL",
+                "NORMAL"
+            ],
+            "timeZone": "America/Los_Angeles",
+            "startDate": "2019-04-12T00:45:00.000Z",
+            "endDate": "2019-04-12T02:30:00.000Z",
+            "showStartTime": true,
+            "showEndTime": true,
+            "startDateTS": 1555029900000,
+            "endDateTS": 1555036200000,
+            "youtubeId": "",
+            "wins": [
+                0,
+                0
+            ],
+            "ties": [
+                0,
+                0
+            ],
+            "losses": [
+                0,
+                0
+            ],
+            "videos": [],
+            "timeToMatch": 3007124,
+            "liveStatus": "UPCOMING"
+        }
+    },
+    "meta": {
+        "strings": {
+            "owl.live-match.upcoming": "Live Soon",
+            "owl.live-match.now": "Live Now",
+            "owl.live-stream.game": "Map ##",
+            "owl.live-stream.game-of": "Map ## of ##",
+            "owl.live-stream.results": "Results",
+            "owl.live-stream.view-more": "View More",
+            "owl.live-stream.view-less": "View Less",
+            "owl.live-stream.phoenix-disclaimer": "For higher video quality, watch on <a rel=\"external\" href=\"https://www.overwatchleague.com\">overwatchleague.com</a>",
+            "owl.rewards.info.description": "<a href=\"{0}\">Log in now</a> to earn rewards for tuning in. <a href=\"{1}\">Geographic restrictions apply</a>.",
+            "owl.rewards.info.description.logged-in": "You are logged in to earn <a href=\"{0}\">viewership rewards</a>. Geographic restrictions apply."
+        }
+    }
+}
