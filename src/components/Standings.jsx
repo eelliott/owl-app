@@ -60,7 +60,7 @@ export class Standings extends Component {
                             <button id="0" onClick={this.changeStage.bind(this)}>Stage 1</button>
                             <button id="1" onClick={this.changeStage.bind(this)}>Stage 2</button>
                             <button id="2" onClick={this.changeStage.bind(this)}>Stage 3</button>
-                            <button id="2" onClick={this.changeStage.bind(this)}>Stage 4</button>
+                            <button id="3" onClick={this.changeStage.bind(this)}>Stage 4</button>
                         </div>
                         {stages[parseInt(this.state.stageNum)].teams.map((team)=> 
                             <div key={team.id}>
