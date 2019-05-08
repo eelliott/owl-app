@@ -14,7 +14,6 @@ export class LiveMatch extends Component {
         }
     }
 
-    // https://api.overwatchleague.com/matches/{gameId}
     componentDidMount() {
         fetch('https://api.overwatchleague.com/live-match')
         .then(res=>res.json())

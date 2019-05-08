@@ -3,6 +3,7 @@ import './App.css';
 import { Navigation } from './components/Navigation';
 import { Standings } from './components/Standings';
 import { TeamDetails } from './components/TeamDetails';
+import { MatchDetails } from './components/MatchDetails';
 import { LiveMatch } from './components/LiveMatch';
 import { Schedule } from './components/Schedule';
 import { Router, Route } from 'react-router-dom';
@@ -17,6 +18,7 @@ class App extends Component {
         <Route exact path='/' component={LiveMatch}/>
         <Route exact path='/teams/:id' component={TeamDetails}/>
         <Route exact path='/schedule' component={Schedule}/>
+        <Route exact path='/matches/:id' component={MatchDetails}/>
       </Router>
     );
   }

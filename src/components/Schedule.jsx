@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Link } from 'react-router-dom';
 import { Match } from './Match';
 
 export class Schedule extends Component {
@@ -75,34 +74,23 @@ export class Schedule extends Component {
                                 <div key={week.id}>
                                     <h5>{week.name}</h5>
                                     {week.matches.map(match =>
-                                        <Link key ={match.id} to={`/matches/${match.id}`}>
-                                            <Match 
-                                                id={match.id} 
-                                                teams={match.competitors}
-                                                scores={match.scores}
-                                                winner={match.winner}
-                                                games={match.games}
-                                                wins={match.wins}
-                                                tournament={match.tournament}
-                                            />
-                                        </Link>
+                                        <Match 
+                                            key={match.id}
+                                            id={match.id} 
+                                            teams={match.competitors}
+                                            scores={match.scores}
+                                        />
                                     )}
                                 </div>
                             ))}    
                         <h5>Playoffs</h5>
                         {this.state.playoff_matches.length <= 0 ? <div>TBD</div> : this.state.playoff_matches.map(match => 
                             <div key={match.id}>
-                                <Link key ={match.id} to={`/matches/${match.id}`}>
-                                    <Match 
-                                        id={match.id} 
-                                        teams={match.competitors}
-                                        scores={match.scores}
-                                        winner={match.winner}
-                                        games={match.games}
-                                        wins={match.wins}
-                                        tournament={match.tournament}
-                                    />
-                                </Link>
+                                <Match 
+                                    id={match.id} 
+                                    teams={match.competitors}
+                                    scores={match.scores}
+                                />
                             </div>
                         )}
                     </div>

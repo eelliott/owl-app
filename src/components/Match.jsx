@@ -8,18 +8,14 @@ export class Match extends Component {
             teams: this.props.teams,
             id: this.props.id,
             scores: this.props.scores,
-            winner: this.props.winner,
-            games: this.props.games,
-            wins: this.props.wins,
-            tournament: this.props.tournament
         }
     }
 
     render() {
-        console.log(this.props.teams["0"])
         return (
             <div>
-                {this.props.id}
+                {this.state.teams[0].abbreviatedName} {this.state.scores[0].value} - {this.state.scores[1].value} {this.state.teams[1].abbreviatedName + '\t'}
+                <Link to={`/matches/${this.state.id}`}>Details</Link> 
             </div>
         );
     }
