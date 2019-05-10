@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export class MatchDetails extends Component {
     constructor(props) {
@@ -19,7 +20,7 @@ export class MatchDetails extends Component {
     }
 
     componentDidMount() {
-        let id = this.props.match.params.id;
+        const id = this.props.match.params.id;
         fetch(`https://api.overwatchleague.com/matches/${id}`)
         .then(res=>res.json())
         .then(data => {
@@ -55,13 +56,10 @@ export class MatchDetails extends Component {
 
     toggleGamePlayers(e) {
         e.persist();
-        let games = this.state.games.filter(g => g.number.toString() !== e.target.id);
-        let game = this.state.games.filter(g => g.number.toString() === e.target.id);
-        this.setState({
-            games: [...games, {
-                ...game, 
-                showPlayers: !game.showPlayers
-            }]
+        this.setState(state => {
+            let tempState = state;
+            tempState.games[parseInt(e.target.id)-1].showPlayers = !tempState.games[parseInt(e.target.id)-1].showPlayers;
+            return tempState;
         });
     }
 
@@ -71,26 +69,21 @@ export class MatchDetails extends Component {
                 {this.state.isLoading ? <p>loading...</p> : 
                     <div>
                         <span id="0" onClick={this.toggleTeamPlayers.bind(this)}>{this.state.teams[0].name} {this.state.scores[0].value}</span> - <span id="1" onClick={this.toggleTeamPlayers.bind(this)}>{this.state.teams[1].name} {this.state.scores[1].value}</span>
-                        {!this.state.showPlayers1 ? <div></div> : 
-                            <div>
-                                {this.state.teams[0].players.map((player) => 
-                                    <div key={player.player.id}>{player.player.name}</div>
-                                )}
-                            </div>
-                        }
-                        {!this.state.showPlayers2 ? <div></div> : 
-                            <div>
-                                {this.state.teams[1].players.map((player) => 
-                                    <div key={player.player.id}>{player.player.name}</div>
-                                )}
-                            </div>
-                        }
+                        {this.state.showPlayers1 && players(this.state.teams[0])}
+                        {this.state.showPlayers2 && players(this.state.teams[1])}
                         <div>
                             {this.state.games.map((game) => 
-                                <div key={game.id} id={game.number} onClick={this.toggleGamePlayers.bind(this)}>
-                                    Map {game.number}: 
-                                    {game.points[0]} - {game.points[1]}
-                                    
+                                <div key={game.id}>
+                                    <div id={game.number} onClick={this.toggleGamePlayers.bind(this)}>
+                                        Map {game.number}: 
+                                        {game.points[0]} - {game.points[1]}
+                                    </div>
+                                    {game.showPlayers && 
+                                        <div>
+                                            {playersFielded(this.state.teams[0], game)}
+                                            {playersFielded(this.state.teams[1], game)}
+                                        </div>
+                                    }
                                 </div>    
                             )}
                         </div>
@@ -99,4 +92,24 @@ export class MatchDetails extends Component {
             </div>
         );
     }
+}
+
+function players(team) {
+    return (
+        <div>
+            {team.players.map((player) => 
+                <Link key={player.player.id} to={`/players/${player.player.id}`}>{player.player.name}</Link>
+            )}
+        </div>
+    );
+}
+
+function playersFielded(team, game) {
+    return (
+        <div> {team.name}: 
+            {game.players.filter(player => player.team.id === team.id).map(player => 
+                <Link key={player.player.id} to={`/players/${player.player.id}`}> {player.player.name} </Link>
+            )}
+        </div>
+    );
 }
